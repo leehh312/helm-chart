@@ -1,0 +1,17 @@
+replicaCount: 1
+
+fullnameOverride: sample-gitops
+
+image:
+  repository: hub.morpheus.kr/lab/gitops-demo
+  tag: "1.0.0"
+
+imagePullSecrets: 
+  name: sample-docker
+
+podAnnotations: {}
+podLabels: {app: demo-chart}
+
+service:
+  type: LoadBalancer
+  port: 9090
