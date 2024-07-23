@@ -1,6 +1,8 @@
-helm-chart
+## helm-chart
 custom helm chart
 
-Get Repo Info
+## Get Repo Info
+```bash
 helm repo add hoya https://leehh312.github.io/helm-chart
 helm repo update
+```
