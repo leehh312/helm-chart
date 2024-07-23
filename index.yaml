@@ -3,12 +3,12 @@ entries:
   sample-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-23T09:14:03.052634+09:00"
+    created: "2024-07-23T10:18:45.807808+09:00"
     description: A Helm chart for Kubernetes
-    digest: ddf675bfd224cdf98aee6c82c0a626b29eb914054f5577b7a98244ea7a0e54e1
+    digest: ff6edda9c73558315f444375c9d50659e1043c41ea1c69345925b7bf62323676
     name: sample-chart
     type: application
     urls:
-    - https://leehh312.github.io/helm-chart/example/sample-chart-1.0.0.tgz
+    - https://leehh312.github.io/helm-chart/pkg/sample-chart-1.0.0.tgz
     version: 1.0.0
-generated: "2024-07-23T09:14:03.052034+09:00"
+generated: "2024-07-23T10:18:45.805376+09:00"
